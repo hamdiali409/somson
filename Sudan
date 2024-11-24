@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع Lovesudan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>مرحباً بكم في Lovesudan</h1>
+        <nav>
+            <ul>
+                <li><a href="#books">الكتب</a></li>
+                <li><a href="#videos">الفيديوهات</a></li>
+                <li><a href="#audio">المحاضرات الصوتية</a></li>
+                <li><a href="#jobs">الوظائف</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Books Section -->
+    <section id="books">
+        <h2>قسم الكتب</h2>
+        <div class="categories">
+            <h3>التخصصات:</h3>
+            <ul>
+                <li>جراحة</li>
+                <li>باطنة</li>
+                <li>أطفال</li>
+                <li>تمريض</li>
+                <li>سمعيات</li>
+                <li>علاج طبيعي</li>
+                <li>نفسي</li>
+            </ul>
+        </div>
+        <p>يمكنك تحميل الكتب بصيغة PDF من هنا.</p>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <h2>قسم الفيديوهات</h2>
+        <p>مشاهدة فيديوهات تعليمية لكل تخصص طبي.</p>
+        <video controls>
+            <source src="example.mp4" type="video/mp4">
+            الفيديو الخاص بك غير مدعوم.
+        </video>
+    </section>
+
+    <!-- Audio Section -->
+    <section id="audio">
+        <h2>قسم المحاضرات الصوتية</h2>
+        <p>استمع إلى محاضرات تعليمية.</p>
+        <audio controls>
+            <source src="example.mp3" type="audio/mpeg">
+            الصوت الخاص بك غير مدعوم.
+        </audio>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs">
+        <h2>قسم الوظائف</h2>
+        <div class="job-categories">
+            <h3>الأقسام:</h3>
+            <ul>
+                <li>وظائف معروضة</li>
+                <li>وظائف مطلوبة</li>
+            </ul>
+        </div>
+        <p>يمكنك رفع سيرتك الذاتية هنا.</p>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="cv" accept=".pdf">
+            <button type="submit">رفع السيرة الذاتية</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Lovesudan. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع Lovesudan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>مرحباً بكم في Lovesudan</h1>
+        <nav>
+            <ul>
+                <li><a href="#books">الكتب</a></li>
+                <li><a href="#videos">الفيديوهات</a></li>
+                <li><a href="#audio">المحاضرات الصوتية</a></li>
+                <li><a href="#jobs">الوظائف</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Books Section -->
+    <section id="books">
+        <h2>قسم الكتب</h2>
+        <div class="categories">
+            <h3>التخصصات:</h3>
+            <ul>
+                <li>جراحة</li>
+                <li>باطنة</li>
+                <li>أطفال</li>
+                <li>تمريض</li>
+                <li>سمعيات</li>
+                <li>علاج طبيعي</li>
+                <li>نفسي</li>
+            </ul>
+        </div>
+        <p>يمكنك تحميل الكتب بصيغة PDF من هنا.</p>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <h2>قسم الفيديوهات</h2>
+        <p>مشاهدة فيديوهات تعليمية لكل تخصص طبي.</p>
+        <video controls>
+            <source src="example.mp4" type="video/mp4">
+            الفيديو الخاص بك غير مدعوم.
+        </video>
+    </section>
+
+    <!-- Audio Section -->
+    <section id="audio">
+        <h2>قسم المحاضرات الصوتية</h2>
+        <p>استمع إلى محاضرات تعليمية.</p>
+        <audio controls>
+            <source src="example.mp3" type="audio/mpeg">
+            الصوت الخاص بك غير مدعوم.
+        </audio>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs">
+        <h2>قسم الوظائف</h2>
+        <div class="job-categories">
+            <h3>الأقسام:</h3>
+            <ul>
+                <li>وظائف معروضة</li>
+                <li>وظائف مطلوبة</li>
+            </ul>
+        </div>
+        <p>يمكنك رفع سيرتك الذاتية هنا.</p>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="cv" accept=".pdf">
+            <button type="submit">رفع السيرة الذاتية</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Lovesudan. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
